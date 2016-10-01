@@ -44,7 +44,7 @@ public class App
 		
 		System.out.println("invoices.length=" + invoices.size() );
 		System.out.println("contacts.length=" + contacts.size() );
-		
+		System.out.println("this is from branch1001 step1 contacts.length=" + contacts.size() );
         App obj = new App();
 
         System.out.println("Unique ID : " + obj.generateUniqueKey());
