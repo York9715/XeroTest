@@ -36,14 +36,12 @@ public class App
 		}
         
 		XeroClient client = new XeroClient(pemReader, consumerKey, consumerSecret);
-
-		
 		
 		List<Invoice> invoices=client.getInvoices();
 		List<Contact> contacts=client.getContacts();
 		
-		System.out.println("invoices.length=" + invoices.size() );
-		System.out.println("contacts.length=" + contacts.size() );
+		System.out.println("invoices.length = " + invoices.size() );
+		System.out.println("contacts.length = " + contacts.size() );
 		System.out.println("branch 1001 invoices.length=" + invoices.size() );
 	    
         App obj = new App();
