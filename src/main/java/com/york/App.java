@@ -35,6 +35,7 @@ public class App
 			e.printStackTrace();
 		}
         
+	    	//Some new features will be added. Need to merge or rebase
 		XeroClient client = new XeroClient(pemReader, consumerKey, consumerSecret);
 
 		
@@ -52,6 +53,7 @@ public class App
     }
    
     
+    //Updated2 in master. need to merge with feature1
     public static void createContact(XeroClient client ){
     	Contact contact = new Contact();
 
