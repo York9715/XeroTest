@@ -35,6 +35,7 @@ public class App
 			e.printStackTrace();
 		}
         
+	    	//Some new features will be added. Need to merge or rebase
 		XeroClient client = new XeroClient(pemReader, consumerKey, consumerSecret);
 
 		
