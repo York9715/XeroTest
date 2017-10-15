@@ -73,7 +73,13 @@ public class App
     	invoice.setLineItems(ImmutableList.of(item));
     	client.createInvoice(invoice);
     }
-    
+
+	//The new method in feature1, will be commited
+    public String generateUniqueKey2(){
+    	String id = UUID.randomUUID().toString();
+    	return id;
+    }
+	
     public String generateUniqueKey(){
     	
     	String id = UUID.randomUUID().toString();
