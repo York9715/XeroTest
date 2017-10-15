@@ -59,7 +59,13 @@ public class App
 
     }
     
-    
+    //New feature1    
+    public static void createContactFeature1(XeroClient client ){
+    	Contact contact = new Contact();
+
+    }
+	
+	
     public static void createInvoice(XeroClient client ){
     	Invoice invoice = new Invoice();
     	invoice.setType(InvoiceType.ACCREC);
