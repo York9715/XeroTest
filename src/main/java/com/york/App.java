@@ -53,6 +53,7 @@ public class App
     }
    
     
+    //Updated2 in master. need to merge with feature1
     public static void createContact(XeroClient client ){
     	Contact contact = new Contact();
 
