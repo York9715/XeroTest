@@ -1,5 +1,5 @@
 package com.york;
-
+//added feature 2
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
